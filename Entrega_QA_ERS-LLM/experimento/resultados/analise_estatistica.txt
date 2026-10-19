@@ -1,0 +1,21 @@
+=== Estatística descritiva (C_ca) ===
+Tratamento (ESP-NEG-001 v1.1): n=6  média=1.0000  mediana=1.0000  dp=0.0000  mín=1.0000  máx=1.0000
+Controle   (documento tradicional): n=6  média=0.2083  mediana=0.2000  dp=0.0465  mín=0.1500  máx=0.2750
+
+=== H1: μ_T > 0,85 (unilateral, α = 0,05) ===
+Variância nula: teste t indefinido; usar Wilcoxon e binomial.
+Wilcoxon postos sinalizados (exato) vs 0,85: W=21.0  p=0.015625
+Binomial exato (CAs agregados): 240/240 = 1.0000  p=1.14959e-17  limite inferior do IC95% unilateral (Clopper-Pearson) = 0.9876
+(o binomial agregado supõe independência entre CAs; é apresentado como análise de apoio)
+Execuções do tratamento abaixo de 0,85: 0 de 6
+
+=== H2: μ_T > μ_C (unilateral, α = 0,05) ===
+Mann-Whitney U (exato): U=36.0  p=0.001082
+t de Welch: t=41.6603  p=7.516e-08
+Tamanho de efeito δ de Cliff = 1.000 (grande)
+Diferença de médias = 0.7917
+
+=== Por modelo gerador (tratamento | controle) ===
+haiku   T=1.000, 1.000   C=0.250, 0.150
+sonnet  T=1.000, 1.000   C=0.275, 0.175
+opus    T=1.000, 1.000   C=0.200, 0.200
